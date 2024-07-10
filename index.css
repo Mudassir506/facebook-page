@@ -1,0 +1,1015 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(253, 253, 253);
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.headerchild1{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+align-items: center;  /* upper sy center den may kaam ata hy*/
+
+
+}
+.icon1{
+    background-color: rgb(235, 245, 245);
+    height: 40px;
+    width: 40px;
+    border-radius: 55px;
+    cursor: pointer;
+}
+.class{
+    height: 40px;
+    width: 40px;
+    border-radius: 55px;
+}
+
+.icon2{
+    /* background-color: whitesmoke; */
+    /* height: 40px;
+    width: 240px; */
+    border-radius: 30px; 
+
+    /* cursor: pointer; */
+}
+.class1{
+    height: 40px;
+    width: 250px;
+    background-color:  whitesmoke;
+    border-radius:20px ;
+    outline: none;
+    border: none;
+}
+.headerchild2{
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 700px){
+    .headerchild2{
+        display: none;
+    }
+}
+
+.button1{
+    background-color: white;
+    height: 43px;
+    width: 85px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #e9edf1;
+}
+.images1{
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+
+}
+.button2{
+    background-color: white;
+    height: 43px;
+    width: 85px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #e9edf1;
+}
+.images2{
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+}
+.button3{
+    background-color: white;
+    height: 43px;
+    width: 85px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: #e9edf1;
+}
+.images3{
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+}
+.button4{
+    background-color: white;
+    height: 43px;
+    width: 85px;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button4:hover{
+    background-color: #e9edf1;
+}
+.images4{
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+}  
+
+.button5{
+    background-color: white;
+    height: 43px;
+    width: 85px;
+    border-radius: 8px;
+    justify-content:center ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button5:hover{
+    background-color: #e9edf1;
+}
+.images5{
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+}  
+.headerchild3{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.bts1{
+    height: 40px;
+    width: 40px;
+    background-color: #e0e2e4;
+    border-radius: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+}
+.bts1:hover{
+    background-color: #c3cedd;
+}
+.pic1{
+    width: 30px;
+    height: 30px;
+    border-radius: 55px;
+
+    
+}
+.bts2{
+height: 40px;
+    width: 40px;
+    background-color:#e0e2e4;
+    border-radius: 55px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+    
+}
+.bts2:hover{
+    background-color: #b5cae6;
+}
+.pic2{
+    width: 30px;
+    height: 30px;
+    border-radius: 55px;
+    
+}
+.bts3{
+    height: 40px;
+    width: 40px;
+    background-color:#e0e2e4;
+    border-radius: 55px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+    
+}
+.bts3:hover{
+    background-color: #b2bece;
+}
+.pic3{
+    width: 30px;
+    height: 30px;
+    border-radius: 55px;
+    
+}
+.bts4{
+    height: 40px;
+    width: 40px;
+    background-color: #e0e2e4;
+    border-radius: 55px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.bts4:hover{
+    background-color: #b2bece;;
+}
+.pic4{
+    width: 30px;
+    height: 30px;
+    border-radius: 55px;
+    
+}
+.main{
+    background-color: whitesmoke;
+    height: 92.1vh;
+    width: 100wh;
+    display: flex;
+}
+
+.child1{
+    background-color: #EBEDF0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow-y: scroll;
+    justify-content: center;   
+    align-items:center ;
+}
+
+@media only screen  and (max-width : 1000px) {
+    .child1{
+        display: none;
+    }
+}
+.btn1{
+    width:260px;
+    height: 40px;
+    background-color: #EBEDF0;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 15px;
+    /* justify-content: center; */
+
+}
+.btn1:hover{
+        background-color: #dfe1e6;
+    
+}
+
+.photos1{
+    width: 35px;
+    height: 35px;
+    border-radius: 55px;
+}
+
+
+.btn2{
+    width: 260px;
+    height: 40px;
+    background-color: #EBEDF0;
+    align-items: center;
+    gap: 15px;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #dfe1e6;
+
+}
+.photos2{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn3{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    gap: 15px;
+
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #dfe1e6;
+
+}
+.photos3{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn4{
+    width: 260px;
+    height: 40px;
+    background-color: #EBEDF0;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn4:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos4{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn5{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+  gap: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn5:hover{
+    background-color: #dfe1e6;
+
+}
+.photos5{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn6{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+  gap: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn6:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos6{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn7{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+    gap: 15px;
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+}
+.btn7:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos7{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn8{
+    width: 260px;
+    height: 40px;
+    background-color: #EBEDF0;
+  gap: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn8:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos8{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn9{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+    gap: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn9:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos9{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn10{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+    gap: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn10:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos10{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn11{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+    gap: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn11:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos11{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+.btn12{
+    width: 260px;
+    height: 40px;
+    background-color:  #EBEDF0;
+   gap: 15px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn12:hover{
+    background-color: #dfe1e6;
+
+}
+
+.photos12{
+    width: 35px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+
+.under{
+    text-decoration-line: none;
+}
+
+.child2{
+    background-color: #EBEDF0;
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.B{
+    height: 250px;
+    width: 700px;
+    background-color: #EBEDF0;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.C1{
+    height: 230px;
+    width: 140px;
+    background-color: #d2dae6;
+    border-radius: 8px;
+
+    
+}
+
+.d1{
+    height: 230px;
+    width: 140px;
+    border-radius: 8px;
+}
+.C2{
+    height: 230px;
+    width: 140px;
+    background-color: #d2dae6;
+    border-radius: 8px;
+}
+.d2{
+    height: 230px;
+    width: 140px;
+    border-radius: 8px;
+}
+.C3{
+    height: 230px;
+    width: 140px;
+    background-color: #d2dae6;
+    border-radius: 8px;
+}
+.d3{
+    height: 230px;
+    width: 140px;
+    border-radius: 8px;
+}
+.C4{
+    height: 230px;
+    width: 140px;
+    background-color: #d2dae6;
+    border-radius: 8px;
+
+}
+.d4{
+    height: 230px;
+    width: 140px;
+    border-radius: 8px;
+}
+.f1{
+    height: 130px;
+    width: 455px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+
+
+}
+.mudi{
+    background-color: whitesmoke;
+    width: 455px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mudi1{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 40px;
+    border-radius: 55px;
+}
+.mudi2{
+    background-color: #e6e8ee;
+    height: 40px;
+    width: 380px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: inherit;
+    position: relative;
+    color: #5b5c5e;
+}
+.mudi2:hover{
+    background-color:#dadde7 ;
+}
+.mudi3{
+    height: 40px;
+    width: 40px;
+    border-radius: 55px;
+}
+p{
+    font-size: 17px;
+    margin-left: 10px;
+
+
+}
+.ayan1{
+    background-color: whitesmoke;
+    height: 60px;
+    width: 454px;
+    display: flex;
+    align-items: center;
+}
+.ayan2{
+    background-color: whitesmoke;
+    height: 35px;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    display: flex;
+}
+.ayan2:hover{
+    background-color: #e6e8ee;
+}
+.digi1{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+    background-color: whitesmoke;
+    align-items: center;
+
+}
+.para1{
+    height: 30px;
+    width: 30px;
+ border-radius: 55px;
+
+
+}
+.taha1{
+   
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-family: inherit;
+    position: relative;
+    color: #5b5c5e;
+}
+
+
+
+
+.ayan3{
+    background-color: #EBEDF0;
+    height: 35px;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    display: flex;
+}
+.ayan3:hover{
+    background-color: #e6e8ee;
+}
+.digi2{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.para2{
+    height: 30px;
+    width: 30px;
+ border-radius: 55px;
+
+
+}
+.taha2{
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    color: #5b5c5e;
+    font-family: inherit;
+}
+.ayan4{
+    background-color: whitesmoke;
+    height: 35px;
+    width: 155px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    display: flex;
+}
+.ayan4:hover{
+    background-color: #e6e8ee;
+}
+.digi3{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 55px;
+    background-color:whitesmoke;
+    align-items: center;
+}
+.para3{
+    height: 30px;
+    width: 30px;
+ border-radius: 55px;
+
+
+}
+.taha3{
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-family: inherit;
+    position: relative;
+    color: #5b5c5e;
+}
+
+.child3{
+    background-color: #EBEDF0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    overflow-y: scroll;   
+}
+
+@media only screen and (max-width : 900px){
+    .child3{
+        display: none;
+    }
+} 
+.mun2{
+    color: #5b5c5e;
+}
+.top1{
+    height: 80px;
+    width: 110px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    gap: 8px;
+    cursor: pointer;
+}
+.mun3{
+   color: #5b5c5e;
+}
+.mun1{
+    height: 80px;
+    width: 280px;
+    background-color: #EBEDF0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mun1:hover{
+    background-color: #dfe1e6;
+}
+.btu1{
+    width: 280px;
+    height: 40px;
+    background-color:  #EBEDF0;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 15px;
+    display: flex;
+}
+.btu1:hover{
+    background-color: #dfe1e6;
+}
+
+.top2{
+    width: 35px;
+    height: 35px;
+    border-radius: 55px;
+}
+.btu2{
+    width: 280px;
+    height: 40px;
+    background-color:  #EBEDF0;
+  display: flex;
+    align-items: center;
+   gap: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btu2:hover{
+    background-color: #dfe1e6;
+}
+
+.top3{
+    width: 35px;
+    height: 35px;
+    border-radius: 55px;
+}
+.btu3{
+    height: 40px;
+    width: 280px;
+   display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    background-color: #EBEDF0;
+    border-radius: 8px;
+
+}
+.btu3:hover{
+    background: #dfe1e6;
+}
+
+.top4{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
+.btu4{
+    background-color: #EBEDF0;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    gap: 15px;
+    border-radius: 8px;
+    
+}
+.btu4:hover{
+    background-color: #dfe1e6;
+}
+
+.top5{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
+.btu5{
+    background-color: #EBEDF0;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+   gap: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+.btu5:hover{
+    background-color: #dfe1e6;
+}
+
+.top6{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
+.btu6{
+    background-color: #EBEDF0;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+   display: flex;
+    cursor: pointer;
+    gap: 15px;
+    border-radius: 8px;
+    
+}
+.btu6:hover{
+    background-color: #dfe1e6;
+}
+
+.top7{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
+.btu7{
+    background-color: #EBEDF0;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+   gap: 15px;
+    border-radius: 8px;
+    
+}
+.btu7:hover{
+    background-color: #dfe1e6;
+}
+
+.top8{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
+.btu8{
+    background-color: #EBEDF0;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    gap: 15px;
+    border-radius: 8px;
+    
+}
+.btu8:hover{
+    background-color: #dfe1e6;
+}
+
+.top9{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
+.btu9{
+    background-color: #EBEDF0;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    gap: 15px;
+    border-radius: 8px;
+    
+}
+.btu9:hover{
+    background-color: #dfe1e6;
+}
+
+.top10{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
+.btu10{
+    background-color: #EBEDF0;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+   gap: 15px;
+    border-radius: 8px;
+    
+}
+.btu10:hover{
+    background-color: #dfe1e6;
+}
+
+.top11{
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+}
